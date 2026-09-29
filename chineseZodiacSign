@@ -1,0 +1,33 @@
+year = int(input("Enter your birth year: "))
+
+if year < 1900:
+    print("Invalid Year, it should not be earlier than 1900")
+else:
+    remainder = (year - 1900) % 12
+
+    if remainder == 0:
+        sign = "Rat (鼠 / Shǔ)"
+    elif remainder == 1:
+        sign = "Ox (牛 / Niú)"
+    elif remainder == 2:
+        sign = "Tiger (虎 / Hǔ)"
+    elif remainder == 3:
+        sign = "Rabbit (兔 / Tù)"
+    elif remainder == 4:
+        sign = "Dragon (龙 / Lóng)"
+    elif remainder == 5:
+        sign = "Snake (蛇 / Shé)"
+    elif remainder == 6:
+        sign = "Horse (马 / Mǎ)"
+    elif remainder == 7:
+        sign = "Goat (羊 / Yáng)"
+    elif remainder == 8:
+        sign = "Monkey (猴 / Hóu)"
+    elif remainder == 9:
+        sign = "Rooster (鸡 / Jī)"
+    elif remainder == 10:
+        sign = "Dog (狗 / Gǒu)"
+    else:
+        sign = "Pig (猪 / Zhū)"
+
+    print("Your Chinese Zodiac Sign is : " + sign)
