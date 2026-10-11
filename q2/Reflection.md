@@ -1,1 +1,0 @@
-Using `@property` makes the code easier to read because I can access and change values like normal variables instead of calling separate getter and setter methods. It also keeps the code simple and organized.
