@@ -1,0 +1,11 @@
+1. What do all the methods (move(), special_move(), use()) in the previous activities have in common?
+
+They have the same purpose of performing an action, but each class gives them a different behavior.
+
+2. How does this activity show polymorphism in a gaming context?
+
+It shows polymorphism because different characters and items can perform different actions using the same method.
+
+3. Can you think of other examples where the same action behaves differently depending on the character or item?
+
+Yes. A healing item restores health, while a shield protects the player. Different characters can also have different attack abilities.
